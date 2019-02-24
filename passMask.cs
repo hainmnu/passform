@@ -10,11 +10,11 @@ class Program{
 			Environment.Exit(0);
 		}
 
-		Application.Run( new Form1() );
+		Application.Run( new PassForm() );
 	}
 }
 
-class Form1:Form{
+class PassForm:Form{
 	//ボタン
 	Button button_ok; //OKボタン
 	Button button_cancel; //キャンセルボタン
@@ -28,7 +28,7 @@ class Form1:Form{
 	//テキストボックス
 	TextBox tb; //パスワード入力エリア
 
-	public Form1(){
+	public PassForm(){
 		this.Width = 350;
 		this.Height = 330;
 		this.Text = "パスワード入力フォーム";

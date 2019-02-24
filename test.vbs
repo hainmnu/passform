@@ -1,7 +1,11 @@
-Dim args1
-args1 = Wscript.Arguments(0)
-args2 = Wscript.Arguments(1)
+Option Explicit
+
+Dim user
+Dim password
+
+user = Wscript.Arguments(0)
+password = Wscript.Arguments(1)
 
 
-Msgbox("args1 is " & args1 & vbcrlf & _
-	"args2 is " & args2)
+Msgbox("user is " & user & vbcrlf & _
+	"password is " & password)
