@@ -34,5 +34,5 @@ Unlike `Get-Credential` on PowerShell,Passform can check passwords being enterd.
 [MIT](https://github.com/zattuzad/passform/blob/master/LICENSE)
 
 ## Author
-[zattuzad](https://github.com/zattuzad)
+[ueharachan](https://github.com/ueharachan)
 
